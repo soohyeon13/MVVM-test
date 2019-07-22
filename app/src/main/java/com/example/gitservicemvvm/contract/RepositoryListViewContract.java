@@ -6,4 +6,6 @@ public interface RepositoryListViewContract {
     void showRepositories(GitHubService.Repositories repositories);
 
     void showError();
+
+    void startDetailActivity(String fullName);
 }
